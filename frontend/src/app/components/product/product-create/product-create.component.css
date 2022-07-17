@@ -1,0 +1,10 @@
+ form  {
+    display:inline-block;
+    flex-direction: column;
+}
+
+ .save {
+    background:  rgb(145, 92, 152);
+    color: #fff;
+    margin: 15px;
+}

@@ -1,0 +1,24 @@
+<mat-card>
+    <mat-card-title>Excluir cadastro</mat-card-title>
+    <form>  
+        <mat-form-field>
+            <input matInput placeholder="Nome" [value]="product.name" name="name" disable>
+        </mat-form-field><br/>
+        <mat-form-field>
+            <input matInput placeholder="Idade"[value]="product.age" name="age" disable>
+        </mat-form-field><br/>
+        <mat-form-field>
+            <input matInput placeholder="País" [value]="product.country" name="country" disable>
+        </mat-form-field><br/>
+        <mat-form-field>
+            <input matInput placeholder="Cidade"[value]="product.city" name="city" disable>
+        </mat-form-field><br/>
+    </form>
+</mat-card>
+<button mat-raised-button (click)="deleteProduct()" class="delete">
+    Excluir
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>

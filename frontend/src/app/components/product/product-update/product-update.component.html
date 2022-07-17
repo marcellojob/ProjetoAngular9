@@ -1,0 +1,24 @@
+<mat-card>
+    <mat-card-title>Atualizar cadastro</mat-card-title>
+    <form>  
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+        </mat-form-field><br/>
+        <mat-form-field>
+            <input matInput placeholder="Idade"[(ngModel)]="product.age" name="age">
+        </mat-form-field><br/>
+        <mat-form-field>
+            <input matInput placeholder="País" [(ngModel)]="product.country" name="country">
+        </mat-form-field><br/>
+        <mat-form-field>
+            <input matInput placeholder="Cidade"[(ngModel)]="product.city" name="city">
+        </mat-form-field><br/>
+    </form>
+</mat-card>
+<button mat-raised-button (click)="updateProduct()" class="save">
+    Atualizar
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>

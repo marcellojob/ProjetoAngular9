@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "Josh Bill",
+      "age": "86",
+      "country": "Estados Unidos",
+      "city": "Califórnia",
+      "id": 1
+    },
+    {
+      "name": "Bianca",
+      "age": "76",
+      "country": "Colômbia",
+      "city": "Bogotá",
+      "id": 2
+    }
+  ]
+}

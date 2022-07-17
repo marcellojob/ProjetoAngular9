@@ -1,0 +1,13 @@
+form{
+    
+    flex-direction: column;
+}
+
+button{
+    margin: 20px 15px 0px 0px;
+}
+
+.save{
+    background:  rgb(145, 92, 152);
+    color: #fff;
+}
